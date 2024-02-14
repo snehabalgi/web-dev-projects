@@ -1,34 +1,30 @@
 const reviews = [
   {
     id: 1,
-    name: "Susan Smith",
-    addr: "USA",
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    name: "Sanjay kumar",
+    addr: "Pune",
+    image: require("./persons/person1.jpg"),
     text: "Loved the servies provied! Defenitely going to travel with Tours24 again",
   },
   {
     id: 2,
-    name: "Anna Johnson",
-    addr: "Germany",
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg",
+    name: "Malaika Mascarenhas",
+    addr: "Goa",
+    image: require("./persons/person2.jpg"),
     text: "Awesome packages at the most affordable price points",
   },
   {
     id: 3,
-    name: "Peter Jones",
-    addr: "Australia",
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+    name: "Sonali kapoor",
+    addr: "Delhi",
+    image: require("./persons/person3.jpg"),
     text: "Great Locations and supportive tour managers. Can't wait to travel again!",
   },
   {
     id: 4,
-    name: "Bill Anderson",
-    addr: "UK",
-    image:
-      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+    name: "Neev Malhotra",
+    addr: "Mumbai",
+    image: require("./persons/person4.jpg"),
     text: "Over all experience was great. Would defenitely recommend to others.",
   },
 ]
