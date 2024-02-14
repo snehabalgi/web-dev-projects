@@ -1,0 +1,61 @@
+body{
+  background-color: black;
+}
+.content{
+  background-image: url("station_bg.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 550px;
+  width: 1260px;
+  box-shadow: inset 0px 0px 10px 10px black;
+}
+h1{
+  padding-top: 50px;
+  color: white;
+  font-size: 5rem;
+  line-height: 0.9;
+  text-align: center;
+}
+h2{
+  color: white;
+  font-size: 5rem;
+  line-height: 0.9;
+  text-align: center;
+}
+button{
+  /* border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  
+  margin-bottom: 5px;
+  border-radius: 5px; */
+  position: relative;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 300px;
+}
+#increment-btn{
+  background: darkred;
+}
+#save-btn{
+  background: darkgreen;
+}
+p{
+  padding-bottom: 50px;
+  color: black;
+  font-size: 2rem;
+  line-height: 0.4;
+  text-align: center;
+  font-weight: bold;
+}
